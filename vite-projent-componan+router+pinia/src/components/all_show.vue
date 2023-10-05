@@ -44,7 +44,7 @@ const menu_food_all = ref(menu_store.menu_list)
       </div>
     </div>
   </nav> <hr>
-
+<!-- card  -->
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col" v-for="(i, index) in menu_food_all" :key="index">
       <div class="card h-100">
