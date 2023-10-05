@@ -1,12 +1,7 @@
+<script setup></script>
 
 <template>
-
-
-      <nav>
-        
-        <RouterLink to="/all_show"></RouterLink>
-      </nav>
-  
-  <RouterView />
+  <div class="container">
+    <RouterView></RouterView>
+  </div>
 </template>
-
